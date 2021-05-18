@@ -8,12 +8,12 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: #00000055;
-    background-image: url("img/cidade-invisivel.png");
+    background-color: #e9351555;
+    background-image: url("img/Curupira.jpg");
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right top;
+    background-position: center top;
     display: flex;
     flex-direction: column;
     color: white;
@@ -51,63 +51,71 @@ header {
 }
 
 main {
-    padding: 20vh 10vw;
+    font-family: 'Karla', Helvetica, Arial, sans-serif;
+    padding: 20vh 5vw;
     flex-grow: 1;
+}
+
+main h1 {
+    font-family: 'Londrina Outline', cursive;
+    font-size: 70px;
+    padding-left: 30px;
+    margin-bottom: 5px;
+}
+
+main .content {
+    display: flex;
+    flex-direction: row;
 }
 
 main h2 {
     font-size: 30px;
-}
-
-main h1 {
-    font-size: 70px;
+    transform: rotate(-90deg);
+    margin-top: 50px;
+    color: #D81F26;
 }
 
 main p {
     font-size: 25px;
     font-weight: 200;
-    max-width: 800px;
+    max-width: 425px;
 }
 
-main a {
+.info {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 50px;
-    font-size: 20px;
-    text-decoration: none;
-    color: white;
-    background-color: #D81F26;
-    margin-top: 20px;
-    border-radius: 5px;
-    user-select: none;
+    flex-direction: row;
+    padding-left: 20px;
+    margin-top: 40px;
 }
 
-main a:hover {
-    background-color: black;
-    transition: all 0.5s;
+.info h3 {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.info p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.ator {
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 3px solid #D81F26;
+}
+
+.personagem {
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 3px solid #D81F26;
+}
+
+.entidade {
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 footer {
     text-align: center;
     height: 40px;
-}
-
-.butterfly {
-    position: absolute;
-    width: 60px;
-    top: 90vh;
-    left: 90vw;
-    filter: brightness(10%);
-    animation: fly 15s linear infinite;
-}
-
-@keyframes fly {
-    0% {
-        transform: translate(0,0);
-    }
-    100% {
-        transform: translate(-90vw, -90vh);
-    }
 }
