@@ -51,16 +51,18 @@ header {
 }
 
 main {
-    font-family: 'Karla', Helvetica, Arial, sans-serif;
-    padding: 20vh 5vw;
+    padding-left: 100px;
+    padding: 20vh 8vw;
     flex-grow: 1;
 }
 
 main h1 {
-    font-family: 'Londrina Outline', cursive;
-    font-size: 70px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 105px;
     padding-left: 30px;
     margin-bottom: 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
 }
 
 main .content {
@@ -78,7 +80,7 @@ main h2 {
 main p {
     font-size: 25px;
     font-weight: 200;
-    max-width: 425px;
+    max-width: 400px;
 }
 
 .info {
