@@ -8,8 +8,8 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: #e9351555;
-    background-image: url("img/Curupira.jpg");
+    /* background-color: #0000005e; */
+    background-image: url("img/iara2.jpeg");
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,7 +62,6 @@ main h1 {
     margin-bottom: 5px;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
-    position: relative;
 }
 
 main .content {

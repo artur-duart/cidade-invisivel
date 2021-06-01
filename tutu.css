@@ -8,8 +8,8 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: #e9351555;
-    background-image: url("img/Curupira.jpg");
+    background-color: #0000005e;
+    background-image: url("img/tutu.webp");
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,7 +55,6 @@ main {
     flex-grow: 1;
 }
 
-
 main h1 {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 105px;
@@ -64,19 +63,6 @@ main h1 {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
 }
-
-/* Sombra  */
-/* main h1::after{
-    content: "Curupira";
-    padding-left: 30px;
-    margin-bottom: 5px;
-    -webkit-text-stroke: 2px black;
-    color: black;
-    position: absolute;
-    top: 4px;
-    left: 5px;
-    z-index: -1;
-} */
 
 main .content {
     display: flex;
